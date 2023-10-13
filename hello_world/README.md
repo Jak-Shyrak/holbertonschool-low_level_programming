@@ -1,0 +1,1 @@
+Thhis is the README of hello_world directory
