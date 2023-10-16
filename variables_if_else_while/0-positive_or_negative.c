@@ -2,6 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
+/**
+ * main- prints if a number is positive or negative
+ * Return: 0
+*/
 int main(void)/*Pick a random number.*/
 {
 	int n;
@@ -20,5 +24,6 @@ int main(void)/*Pick a random number.*/
 	{
 		printf("%d is zero\n", n); /*print n is zero*/
 	}
+
 	return (0);
 }
