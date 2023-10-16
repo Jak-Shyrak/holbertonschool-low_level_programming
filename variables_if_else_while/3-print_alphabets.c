@@ -3,18 +3,17 @@
 /**
 * main - This program
 * print the alphabet
-* in lowercase then
-* in uppercase
+* in lowercase
 * Return: 0
 */
 int main(void)
 {
-    char alphabet = 'a';
-    while (alphabet <= 'z') {
-        putchar(alphabet);
-        alphabet++;
-    }
-    putchar('\n');
-    putchar (toupper(\n));
-    return (0);
+char alphabet = 'a';
+while (alphabet <= 'z')
+{
+putchar(alphabet);
+alphabet++;
+}
+putchar('\n');
+return (0);
 }
