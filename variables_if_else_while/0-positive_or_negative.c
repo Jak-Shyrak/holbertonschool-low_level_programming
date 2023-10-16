@@ -1,9 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/* Pick a random number.
+if the number is positive print n is positive
+if the number is negative print n is negative
+if the number equal to 0 print n is zero
+*/
 int main(void)
 {
 	int n;
