@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 
-/*Pick a random number.*/
 
-int main(void)
+
+int main(void)/*Pick a random number.*/
 {
 	int n;
 
