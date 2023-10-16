@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 /**
 * main - This program
 * print the alphabet
