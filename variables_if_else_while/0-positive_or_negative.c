@@ -22,10 +22,10 @@ int main(void)/*Pick a random number.*/
 	{
 		printf("%d is negative\n", n); /* print n is negative*/
 	}
+
 	else if (n == 0)
 	{
 		printf("%d is zero\n", n); /*print n is zero*/
 	}
-	
 	return (0);
 }
