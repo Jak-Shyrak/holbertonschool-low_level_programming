@@ -4,7 +4,6 @@
 
 /*Pick a random number.*/
 
-##
 int main(void)
 {
 	int n;
