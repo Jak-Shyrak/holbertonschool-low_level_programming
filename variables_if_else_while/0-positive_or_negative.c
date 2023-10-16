@@ -2,8 +2,6 @@
 #include <time.h>
 #include <stdio.h>
 
-
-
 int main(void)/*Pick a random number.*/
 {
 	int n;
