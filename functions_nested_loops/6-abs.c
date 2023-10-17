@@ -1,6 +1,6 @@
 
 
-#include "holberton.h"
+#include "main.h"
 /**
 * main - This program
 * will assign a random number
