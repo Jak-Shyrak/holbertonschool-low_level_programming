@@ -1,11 +1,8 @@
 #include "main.h"
 
 /**
- * main - prints alphabet
- *
- * Description: null
- * Return: always 0
- */
+* main - main.c
+*/
 int main(void)
 {
 	print_alphabet_x10();
