@@ -3,6 +3,6 @@
 
 int main(void)
 {
-	print_alphabet();
+	jack_bauer();
 	return (0);
 }

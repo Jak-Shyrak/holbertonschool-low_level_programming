@@ -1,11 +1,9 @@
 
-
 #include "main.h"
+
 /**
 * main - This program
-* will assign a random number
-* to the variable n
-* Return: 0
+* computes the absolute value of an integer
 */
 int _abs(int n)
 {

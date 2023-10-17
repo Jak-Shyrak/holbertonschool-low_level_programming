@@ -3,8 +3,7 @@
 
 /**
 * main - This program
-* will assign a random number
-* to the variable n
+* prints _putchar, followed by a new line.
 * Return: 0
 */
 int main(void)

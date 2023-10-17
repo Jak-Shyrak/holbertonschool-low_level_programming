@@ -1,12 +1,10 @@
+
 #include "main.h"
 
 /**
- * print_sign - checks sign
- * @n: number tested
- *
- * Description: same
- * Return: 1 if n>0, 0 if n=0, -1 if n<0
- */
+* main - This program
+* the sign of a number.
+*/
 int print_sign(int n)
 {
 	if (n > 0)
@@ -19,11 +17,9 @@ int print_sign(int n)
 		_putchar('0');
 		return (0);
 	}
-	else if (n < 0)
+	else
 	{
 		_putchar('-');
 		return (-1);
 	}
-
-	return (0);
 }

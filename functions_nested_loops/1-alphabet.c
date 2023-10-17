@@ -1,18 +1,15 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
 * main - This program
-* will assign a random number
-* to the variable n
-* Return: 0
+* prints the alphabet, in lowercase, followed by a new line.
 */
-int main(void)
+void print_alphabet(void)
 {
-	char a;
+	char letter;
 
-	for (a = 97; a <= 122; a++)
-		putchar(a);
-	putchar('\n');
-	return (0);
+	for (letter = 'a'; letter <= 'z'; letter++)
+		_putchar(letter);
+
+	_putchar('\n');
 }

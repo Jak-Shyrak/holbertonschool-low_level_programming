@@ -1,14 +1,15 @@
+
 #include "main.h"
 
 /**
 * main - This program
-* will assign a random number
-* to the variable n
+*  checks for lowercase character
 * Return: 0
 */
 int _isalpha(int c)
 {
-	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
+	if ((c >= 'a' && c <= 'z') ||
+	    (c >= 'A' && c <= 'Z'))
 		return (1);
 	else
 		return (0);
