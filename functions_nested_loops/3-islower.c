@@ -1,9 +1,10 @@
 
-#include "main.h"
+#include "../main/main.h"
 
 /**
 * _islower - This program
 *  checks for lowercase character
+* @c: Description of parameter c
 * Return: 0
 */
 int _islower(int c)

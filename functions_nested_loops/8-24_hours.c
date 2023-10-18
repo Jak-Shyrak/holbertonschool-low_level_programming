@@ -1,5 +1,5 @@
 
-#include "main.h"
+#include "../main/main.h"
 
 /**
 * jack_bauer - This program

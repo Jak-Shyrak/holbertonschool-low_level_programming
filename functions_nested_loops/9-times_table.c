@@ -1,9 +1,10 @@
 
-#include "main.h"
+#include "../main/main.h"
 
 /**
-* main - This program
+* times_table - This program
 * prints the 9 times table, starting with 0
+* Return: 1 if the number is positive, 0 if its zero and -1 if its negative
 */
 void times_table(void)
 {

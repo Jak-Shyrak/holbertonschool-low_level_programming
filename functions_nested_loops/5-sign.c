@@ -1,7 +1,10 @@
-#include "main.h"
+#include "../main/main.h"
+
 /**
-* main - This program
-* the sign of a number.
+* print_sign - This program
+*  prints the sign of a number
+* @n: Description of parameter n
+* Return: 1 if the number is positive, 0 if its zero and -1 if its negative
 */
 int print_sign(int n)
 {
