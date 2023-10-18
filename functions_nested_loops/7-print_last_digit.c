@@ -1,5 +1,5 @@
 
-#include "../main/main.h"
+#include "main.h"
 
 /**
 * print_last_digit - This program

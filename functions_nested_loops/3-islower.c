@@ -1,5 +1,5 @@
 
-#include "../main/main.h"
+#include "main.h"
 
 /**
 * _islower - This program

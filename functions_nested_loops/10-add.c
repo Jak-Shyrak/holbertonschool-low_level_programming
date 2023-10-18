@@ -1,4 +1,4 @@
-#include "../main/main.h"
+#include "main.h"
 
 /**
 * add - This program

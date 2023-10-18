@@ -1,4 +1,4 @@
-#include "../main/main.h"
+#include "main.h"
 
 /**
 * _isalpha - This program
