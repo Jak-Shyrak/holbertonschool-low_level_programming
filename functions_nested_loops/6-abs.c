@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* main - This program
+* _abs - This program
 * computes the absolute value of an integer
 */
 int _abs(int n)

@@ -2,7 +2,7 @@
 	#include "main.h"
 
 	/**
-	* main - This program
+	* _isalpha - This program
 	*  checks for lowercase character
 	* Return: 0
 	*/
