@@ -1,6 +1,4 @@
-
 #include "main.h"
-
 /**
 * main - This program
 * the sign of a number.

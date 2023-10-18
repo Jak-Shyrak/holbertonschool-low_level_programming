@@ -1,16 +1,16 @@
 
-#include "main.h"
+	#include "main.h"
 
-/**
-* main - This program
-*  checks for lowercase character
-* Return: 0
-*/
-int _isalpha(int c)
-{
-	if ((c >= 'a' && c <= 'z') ||
-	    (c >= 'A' && c <= 'Z'))
-		return (1);
-	else
-		return (0);
-}
+	/**
+	* main - This program
+	*  checks for lowercase character
+	* Return: 0
+	*/
+	int _isalpha(int c)
+	{
+		if ((c >= 'a' && c <= 'z') ||
+			(c >= 'A' && c <= 'Z'))
+			return (1);
+		else
+			return (0);
+	}
