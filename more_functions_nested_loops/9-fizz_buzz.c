@@ -13,7 +13,9 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if (i % 3 == 0 && i % 5 == 0)
+		if (i % 3 == 0 && i % 5 == 0) /* ou bien, trouver les multiples*/
+								/*de 15 (en commun avec 3 et 5)*/
+								/*(i % 15 == 0)*/
 			printf("FizzBuzz");
 		else if (i % 3 == 0)
 			printf("Fizz");
