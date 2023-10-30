@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - print a string
+ * _puts_recursion - print a string
  *
  * Return: Always 0.
  */
