@@ -3,7 +3,7 @@
 
 /**
  * _puts_recursion - print a string
- *
+ * @s: chaine de charactère
  * Return: Always 0.
  */
 void _puts_recursion(char *s)

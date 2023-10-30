@@ -7,10 +7,10 @@
  */
 void _print_rev_recursion(char *s)
 {
-    if (*s == '\0') /* Si nous atteignons la fin de la chaîne, nous nous arrêtons.*/
-        return;
+	if (*s == '\0') /* Si nous atteignons la fin, nous nous arrêtons.*/
+		return;
 
-    _print_rev_recursion(s + 1); /* Appel récursif avec le caractère suivant.*/
+	_print_rev_recursion(s + 1); /* Appel récursif avec le caractère suivant.*/
 
-    putchar(*s); /* Imprime le caractère actuel (à partir de la fin).*/
+	putchar(*s); /* Imprime le caractère actuel (à partir de la fin).*/
 }
