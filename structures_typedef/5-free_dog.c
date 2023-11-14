@@ -4,10 +4,9 @@
 #include "dog.h"
 
 /**
- *free_dog - frees dogs
- *@name: name of the new dog
- *@age: age of the dog
- *@owner: Owner of the new dog
+ *free_dog - doggy's free
+ *@d: pointer to structure
+ *Return: new dog
  */
 void free_dog(dog_t *d)
 {
