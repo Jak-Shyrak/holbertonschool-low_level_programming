@@ -4,11 +4,10 @@
 #include "dog.h"
 
 /**
- *new_dog - Create a new dog
+ *free_dog - frees dogs
  *@name: name of the new dog
  *@age: age of the dog
  *@owner: Owner of the new dog
- *Return: new dog
  */
 void free_dog(dog_t *d)
 {
