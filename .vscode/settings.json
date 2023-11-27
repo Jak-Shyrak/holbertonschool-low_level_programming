@@ -6,7 +6,8 @@
 		"test": "c",
 		"main.C": "cpp",
 		"typeinfo": "c",
-		"dog.h": "c"
+		"dog.h": "c",
+		"lists.h": "c"
 	},
     "C_Cpp.errorSquiggles": "disabled"
 }
