@@ -7,15 +7,15 @@
  */
 size_t print_dlistint(const dlistint_t *h)
 {
-    size_t count = 0; /* Variable pour compter le nombre de nœuds dans la liste */
+	size_t count = 0; /* compter le nombre de nœuds dans la liste */
 
-    /* Parcourt la liste tant que le pointeur actuel n'est pas NULL */
-    while (h != NULL)
-    {
-        printf("%d\n", h->n); /* Affiche la valeur du nœud actuel */
-        h = h->next; /* Avance vers le nœud suivant */
-        count++; /* Incrémente le compteur de nœuds */
-    }
+	/* Parcourt la liste tant que le pointeur actuel n'est pas NULL */
+	while (h != NULL)
+	{
+		printf("%d\n", h->n); /* Affiche la valeur du nœud actuel */
+		h = h->next; /* Avance vers le nœud suivant */
+		count++; /* Incrémente le compteur de nœuds */
+		}
 
-    return count; /* Retourne le nombre total de nœuds dans la liste */
+	return (count) /* Retourne le nombre total de nœuds dans la liste */
 }
