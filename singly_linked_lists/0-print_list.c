@@ -1,29 +1,31 @@
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 #include "lists.h"
+
 /**
- * print_list - print a list hen she's not empty
- * @h: elements of list
- * Return: size of the list
-*/
+ * print_list - print list of element and count them
+ * @h: pointer to the pointer str to struct
+ * Return: count of node
+ */
+
 size_t print_list(const list_t *h)
 {
-	int size = 0;
-	const list_t *p = h;
+	size_t count = 0;
 
-	while (p != NULL)
+	/*Traversing the linked list*/
+	while (h != NULL)
 	{
-		if (p->str == NULL)
-		{
+		/*Check if str is NULL*/
+		if (h->str == NULL)
 			printf("[0] (nil)\n");
-			p = p->next;
-			size++;
-		}
 		else
-		{
-			printf("[%d] %s\n", p->len, p->str);
-			p = p->next;
-			size++;
-		}
-	}
+			/*Print lenght and str*/
+			printf("[%u] %s\n", h->len, h->str);
 
-	return (size);
+		/*Increment h to the next list*/
+		h = h->next;
+		count++;
+	}
+	return (count);
 }
