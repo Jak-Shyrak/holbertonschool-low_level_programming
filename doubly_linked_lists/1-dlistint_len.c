@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * list_len - count numbers of list
+ * dlistint_len - count numbers of list
  * @h: pointer to element of list
  * Return: number of list
  */
