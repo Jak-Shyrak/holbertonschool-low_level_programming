@@ -7,24 +7,21 @@
  *@b: pointer to a string of 0 and 1 chars
  * Return: 0 SUCCESS
  */
-unsigned int binary_to_uint(const char *b){
+unsigned int binary_to_uint(const char *b)
+{
+	unsigned int decimal;
+	unsigned int i;
 
-	if (b == NULL)
-		return (0);
-
-    /* Variable pour accumuler la valeur convertie*/
-    unsigned int result = 0;
-
-	for (int i = 0; b[i] != '\0'; i++) {
-		if (b[i] != '0' && b[i] != '1') {
-			return 0;
-		}
-	
-	/* Mise à jour de la valeur convertie*/
-    result = result * 2 + (b[i] - '0');
+	for (decimal = 0, i = 0; b[i] != '\0'; i++)
+	{
+		if (b[i] == '1')
+			decimal = (decimal << 1) | 1;
+		else if (b[i] == '0')
+			decimal <<= 1;
+		else if (b[i] != '0' && b[i] != '1')
+			return (0);
 	}
 
-    /* Retourner le résultat final*/
-    return result;
+	return (decimal);
 }
 
