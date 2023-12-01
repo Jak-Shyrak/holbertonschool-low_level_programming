@@ -12,14 +12,19 @@ unsigned int binary_to_uint(const char *b){
 	if (b == NULL)
 		return (0);
 
-    // Variable pour accumuler la valeur convertie
+    /* Variable pour accumuler la valeur convertie*/
     unsigned int result = 0;
 
 	for (int i = 0; b[i] != '\0'; i++) {
 		if (b[i] != '0' && b[i] != '1') {
 			return 0;
 		}
+	
+	/* Mise à jour de la valeur convertie*/
+    result = result * 2 + (b[i] - '0');
 	}
 
-
+    /* Retourner le résultat final*/
+    return result;
 }
+
