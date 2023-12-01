@@ -1,12 +1,10 @@
-#include <stdio.h>
-#include <string.h>
-#include "main.h"
-
 /**
- * binary_to_uint - deletes the node at
- *@b: pointer to a string of 0 and 1 chars
- * Return: 0 SUCCESS
+ * binary_to_uint - convert binary string to decimal
+ * @b: binary string
+ *
+ * Return: decimal (unsigned int)
  */
+
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int decimal;
@@ -24,4 +22,3 @@ unsigned int binary_to_uint(const char *b)
 
 	return (decimal);
 }
-
